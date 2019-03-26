@@ -1,0 +1,57 @@
+                <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+                    <h4 className="h2">Tambah produkmu, tambah untungmu :)</h4>
+                </div>
+        
+                <div className="">
+                    <form>
+                        <div className="form-group row">
+                            <label for="nama" className="col-sm-2 col-form-label">Nama Produk</label>
+                            <div className="col-sm-4">
+                            <input type="text" className="form-control" id="nama" placeholder="Nama Produk">
+                            </div>
+                        </div>
+                        <div className="form-group row">
+                            <label for="product_type_id" className="col-sm-2 col-form-label">Kategori</label>
+                            <div className="col-sm-4">
+                            <input list="product_type" className="form-control" id="product_type_id" placeholder="Kategori">
+                            <datalist id="product_type">
+                                <option value="Sapi">
+                                <option value="Kambing">
+                                <option value="Domba">
+                            </datalist>
+                            </div>
+                        </div>
+                        <div className="form-group row">
+                            <label for="price" className="col-sm-2 col-form-label">Harga Produk</label>
+                            <div className="col-sm-4">
+                            <input type="text" className="form-control" id="price" placeholder="Harga Produk">
+                            </div>
+                        </div>
+                        <div className="form-group row">
+                            <label for="status-menu" className="col-sm-2 col-form-label">Status Produk</label>
+                            <div className="col-sm-4">
+                            <input list="statusmenu" className="form-control" id="status-menu" placeholder="Status Produk">
+                            <datalist id="statusmenu">
+                                <option value="Show">
+                                <option value="Not Show">
+                            </datalist>
+                            </div>
+                        </div>
+                        <div className="form-group row">
+                            <label for="url_picture" className="col-sm-2 col-form-label">Gambar Produk</label>
+                            <div className="col-md-4">
+                                <input type="file" className="form-control-file" id="url_picture">
+                            </div>
+                        </div>
+                        <div className="form-group row">
+                            <label for="qty" className="col-sm-2 col-form-label">Jumlah Produk</label>
+                            <div className="col-sm-4">
+                            <input type="text" className="form-control" id="qty" placeholder="Jumlah Produk">
+                            </div>
+                        </div>
+                        <div className="col-sm-4">
+                            <input type="submit" id="middle-submit" className="btn btn-secondary" value="Simpan">
+                        </div>
+                        
+                    </form>
+                </div>
